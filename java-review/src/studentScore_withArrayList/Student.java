@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Student {
 	
-	privateㄴ int studentNum;
+	private int studentNum;
 	private String studentName;
 	private ArrayList<Subject> subs;	
 	
