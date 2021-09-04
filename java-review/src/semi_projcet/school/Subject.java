@@ -9,7 +9,7 @@ public class Subject {
 	private int gradeType;
 	private ArrayList<Student> studentList = new ArrayList<>();
 	
-	public Subject(int id, String name) {
+	public Subject(String name, int id) {
 		this.subjectId = id;
 		this.subjectName = name;
 		this.gradeType = Define.AB_TYPE;
