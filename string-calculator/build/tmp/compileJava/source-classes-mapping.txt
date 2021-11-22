@@ -1,5 +1,9 @@
+toy/Direction.java
+ toy.Direction
 ver1/Main.java
  ver1.Main
+toy/Toy.java
+ toy.Toy
 ver1/Operator.java
  ver1.Operator
 ver1/Calculator.java
