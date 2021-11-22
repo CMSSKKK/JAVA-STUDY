@@ -74,12 +74,10 @@ public class enumTest {
         // 7.toy move 구현하기 direction의 distance만큼 움직이는 것으로 구현
         //      좌우는 x가 움직이고 상하는 y가 움직이는 방식
         Toy toy = new Toy("aaron", LEFT);
-        assertThat(toy.positionX()).isEqualTo(new Position().getX());
-        assertThat(toy.positionY()).isEqualTo(new Position().getY());
-        Position position = new Position(3, 8);
-        Toy toy2 = new Toy("aaron", DOWN, position);
-        assertThat(toy2.positionX()).isEqualTo(3);
-        assertThat(toy2.positionY()).isEqualTo(8);
 
+        toy.move();
+        assertThat(toy.positionX()).isEqualTo(-5);
+        assertThat(toy.positionY()).isEqualTo(0);
+        assertThat(toy.CurrentPosition()).isEqualTo("위치는"+-5+" "+0+"입니다.");
     }
 }

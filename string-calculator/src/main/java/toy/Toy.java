@@ -48,5 +48,20 @@ public class Toy {
         return this.position.getY();
     }
 
+    public void move() {
+        if(this.direction == Direction.RIGHT || this.direction == Direction.LEFT) {
+             int positionX = this.positionX()+this.direction.getDistance();
+             this.position.setX(positionX);
+        }
 
+        if(this.direction == Direction.UP || this.direction == Direction.DOWN) {
+            int positionY = this.positionY()+this.direction.getDistance();
+            this.position.setY(positionY);
+        }
+
+    }
+
+    public String CurrentPosition() {
+        return this.position.toString();
+    }
 }

@@ -2,9 +2,9 @@ package toy;
 
 public enum Direction {
     RIGHT(3),
-    LEFT(5),
+    LEFT(-5),
     UP(7),
-    DOWN(9);
+    DOWN(-9);
 
     private int distance;
     Direction(int distance) {
