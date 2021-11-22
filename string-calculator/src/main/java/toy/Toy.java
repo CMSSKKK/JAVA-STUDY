@@ -52,7 +52,11 @@ public class Toy {
         return this.position.getY();
     }
 
-    public void move() {
+    public void move() throws NoMovableException {
+        if(this.energy == 0 || this.energy < this.direction.energyCost()) {
+            throw new NoMovableException("더 이상 움직일 수 없습니다.");
+        }
+
         if(this.direction == Direction.RIGHT || this.direction == Direction.LEFT) {
              int positionX = this.positionX()+this.direction.getDistance();
              this.position.setX(positionX);
@@ -73,5 +77,7 @@ public class Toy {
         return this.energy;
     }
 
-
+    public void setDirection(Direction direction) {
+        this.direction = direction;
+    }
 }

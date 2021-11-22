@@ -1,7 +1,9 @@
 package example;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import toy.NoMovableException;
 import toy.Position;
 import toy.Toy;
 
@@ -62,7 +64,7 @@ public class enumTest {
 
     @Test
     @DisplayName("toy move 구현하기")
-    void toyMove() {
+    void toyMove() throws NoMovableException {
 
         Toy toy = new Toy("aaron", LEFT);
 
@@ -74,7 +76,7 @@ public class enumTest {
 
     @Test
     @DisplayName("toy의 체력 및 move할때마다 energy가 줄어드는 것 확인하기")
-    void toyHasEnergyTest() {
+    void toyHasEnergyTest() throws NoMovableException {
 
         Toy toy = new Toy("aaron", LEFT);
         assertThat(toy.currentEnergy()).isEqualTo(100);
@@ -82,4 +84,15 @@ public class enumTest {
         assertThat(toy.currentEnergy()).isNotEqualTo(100);
         assertThat(toy.currentEnergy()).isEqualTo(90);
     }
-}
+    @Test
+    @DisplayName("toy의 상태 확인하기")
+    void toyMovableTest() throws NoMovableException {
+        Toy toy = new Toy("aaron", LEFT);
+        for (int i = 0; i < 10 ; i++) {
+            toy.move();
+        }
+
+        Assertions.assertThrows(NoMovableException.class, () ->toy.move());
+
+   }
+ }

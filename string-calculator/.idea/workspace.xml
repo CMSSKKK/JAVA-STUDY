@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c215717a-63c2-4138-aa85-0c490b7dd2a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Toy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/toy/NoMovableException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/toy/Direction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/toy/Direction$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/toy/Direction$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/toy/Direction$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/toy/Direction$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/toy/Direction$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/toy/Direction$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/toy/Direction$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/toy/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/toy/Direction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/toy/Toy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/toy/Toy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/example/enumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/example/enumTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/toy/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toy/Direction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/toy/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toy/Toy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/example/enumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example/enumTest.java" afterDir="false" />
     </list>
@@ -73,7 +78,7 @@
       <recent name="toy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.enumTest.toyHasEnergyTest">
+  <component name="RunManager" selected="JUnit.enumTest.toyMovableTest">
     <configuration name="enumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="string-calculator.test" />
       <extension name="coverage">
@@ -89,22 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="enumTest.findEnum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="string-calculator.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="example" />
-      <option name="MAIN_CLASS_NAME" value="example.enumTest" />
-      <option name="METHOD_NAME" value="findEnum" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="enumTest.toyHasEnergyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="string-calculator.test" />
       <extension name="coverage">
@@ -116,6 +105,22 @@
       <option name="PACKAGE_NAME" value="example" />
       <option name="MAIN_CLASS_NAME" value="example.enumTest" />
       <option name="METHOD_NAME" value="toyHasEnergyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="enumTest.toyMovableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="string-calculator.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="example" />
+      <option name="MAIN_CLASS_NAME" value="example.enumTest" />
+      <option name="METHOD_NAME" value="toyMovableTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.enumTest.toyMovableTest" />
         <item itemvalue="JUnit.enumTest.toyHasEnergyTest" />
         <item itemvalue="JUnit.enumTest.toyMove" />
         <item itemvalue="JUnit.enumTest" />
         <item itemvalue="JUnit.enumTest.toySetPosition" />
-        <item itemvalue="JUnit.enumTest.findEnum" />
       </list>
     </recent_temporary>
   </component>
