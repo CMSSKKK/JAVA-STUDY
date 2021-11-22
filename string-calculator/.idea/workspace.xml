@@ -7,11 +7,9 @@
     <list default="true" id="c215717a-63c2-4138-aa85-0c490b7dd2a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/toy/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/toy/Direction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/toy/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/toy/Position.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/toy/Toy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/toy/Toy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/example/enumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/example/enumTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/toy/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toy/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/toy/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toy/Position.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/toy/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toy/Toy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/example/enumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example/enumTest.java" afterDir="false" />
     </list>
@@ -75,28 +73,7 @@
       <recent name="toy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.enumTest.toyMove">
-    <configuration name="enumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;example.enumTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.enumTest.toyHasEnergyTest">
     <configuration name="enumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="string-calculator.test" />
       <extension name="coverage">
@@ -123,6 +100,22 @@
       <option name="PACKAGE_NAME" value="example" />
       <option name="MAIN_CLASS_NAME" value="example.enumTest" />
       <option name="METHOD_NAME" value="findEnum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="enumTest.toyHasEnergyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="string-calculator.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="example" />
+      <option name="MAIN_CLASS_NAME" value="example.enumTest" />
+      <option name="METHOD_NAME" value="toyHasEnergyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.enumTest.toyHasEnergyTest" />
         <item itemvalue="JUnit.enumTest.toyMove" />
         <item itemvalue="JUnit.enumTest" />
         <item itemvalue="JUnit.enumTest.toySetPosition" />
         <item itemvalue="JUnit.enumTest.findEnum" />
-        <item itemvalue="Gradle.enumTest" />
       </list>
     </recent_temporary>
   </component>

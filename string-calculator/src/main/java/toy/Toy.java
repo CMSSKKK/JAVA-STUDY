@@ -4,21 +4,25 @@ public class Toy {
     private String name;
     private Direction direction;
     private Position position;
+    private int energy;
 
     public Toy(String name) {
         this.name = name;
         this.direction = Direction.RIGHT;
         this.position = new Position();
+        this.energy = 100;
     }
     public Toy(String name,Direction direction) {
         this.name = name;
         this.direction = direction;
         this.position = new Position();
+        this.energy = 100;
     }
     public Toy(String name, Direction direction, Position position) {
         this.name = name;
         this.direction = direction;
         this.position = position;
+        this.energy = 100;
     }
 
 
@@ -58,10 +62,16 @@ public class Toy {
             int positionY = this.positionY()+this.direction.getDistance();
             this.position.setY(positionY);
         }
-
+        this.energy = this.energy - this.direction.energyCost();
     }
 
     public String CurrentPosition() {
         return this.position.toString();
     }
+
+    public int currentEnergy() {
+        return this.energy;
+    }
+
+
 }
