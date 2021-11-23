@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c215717a-63c2-4138-aa85-0c490b7dd2a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Toy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/toy/NoMovableException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/toy/Direction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/toy/Direction$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/toy/Direction$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/toy/Direction$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/toy/Direction$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/toy/Direction$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/toy/Direction$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/toy/Direction$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/toy/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/toy/Direction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/toy/Toy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/toy/Toy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/example/enumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/example/enumTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/toy/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/toy/Toy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/example/enumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example/enumTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c215717a-63c2-4138-aa85-0c490b7dd2a0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
