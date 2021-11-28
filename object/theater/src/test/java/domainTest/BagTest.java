@@ -3,7 +3,6 @@ package domainTest;
 import domain.Bag;
 import domain.Invitation;
 import domain.Ticket;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
