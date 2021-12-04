@@ -1,7 +1,5 @@
 package ver1;
 
-import java.util.regex.Pattern;
-
 public class Calculator {
     private String[] input;
 
@@ -11,20 +9,16 @@ public class Calculator {
 
 
     int calculateLoop() {
-        String regExp = "^[0-9]*$";
-        Operator currentOperator = Operator.PLUS;
+
+        Operator2 currentOperator = Operator2.PLUS;
         int result = 0;
 
         for (String val : input) {
-            if (Pattern.matches(regExp, val)) {
+            if (Converter.checkInput(val)) {
                 result = currentOperator.operate(result, Integer.parseInt(val));
                 continue;
             }
-            for( Operator operator : Operator.values()) {
-                if(operator.getSign().equals(val)) {
-                    currentOperator = operator;
-                }
-            }
+            currentOperator = Operator2.findOperator(val);
 
         }
         return result;
